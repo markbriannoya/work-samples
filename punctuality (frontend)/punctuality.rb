@@ -23,6 +23,9 @@
 
 begin
   require 'sinatra'
+  require 'haml'
+  require 'sass'
+
 rescue LoadError => e
   puts "You need to install the `sinatra` gem before you can run this server. There's instructions inside the server file - please take a look."
   exit(1)
